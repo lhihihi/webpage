@@ -1,0 +1,55 @@
+/*---------- footer style ----------*/
+
+footer{
+	background:#000;
+	border-top: 1px solid #fff;
+}
+.footer-content{
+	text-align: center;
+	padding: 40px 0;
+	letter-spacing: 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer-content>address{
+	color:#fff;
+	font-size:14px;
+	font-style:normal;  /*address의 이탤릭기능해제*/
+}
+
+.footer-1{
+	font-size: 15px;
+	margin-bottom: 30px;
+	font-weight: 400;
+}
+
+.footer-1 a{
+	margin-right: 17px;
+	cursor: pointer;
+	transition: text-shadow 0.3s ease;
+}
+
+.footer-1 a:hover{
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.footer-2{
+	font-size: 12px;
+	font-weight: 100;
+	line-height: 17px;
+}
+
+.top-btn{
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	background:#fff;
+	margin:auto;
+	line-height:40px;
+}
+.top-btn a{
+	color:#ff4d51;
+	font-size:26px;
+}
+
